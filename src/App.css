@@ -1,0 +1,944 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Anek+Telugu&display=swap");
+.imgs {
+  width: 100% !important;
+  display: block !important;
+  margin: auto;
+}
+.swiper {
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imgs1 {
+  width: 100% !important;
+  display: block !important;
+  margin: auto;
+}
+.ari {
+  font-family: "Aboreto", cursive;
+  font-family: "Anek Telugu", sans-serif;
+  font-size: 30px;
+  color: #485fc7;
+  font-weight: 700;
+}
+.item1 {
+  font-size: 15px;
+  margin-left: 50px;
+  font-weight: 500;
+}
+.item2 {
+  font-size: 25px;
+  margin-left: 50px;
+  font-weight: 500;
+}
+.tables {
+  border: none !important;
+  width: 100%;
+}
+.btn1 {
+  display: block !important;
+  margin: auto;
+}
+.tr {
+  padding-top: 20px;
+}
+.cm1 {
+  height: 700px;
+}
+.cm2 {
+  margin: auto;
+}
+.cm3 {
+  margin-top: 20px;
+}
+.cm3 h5 {
+  padding-top: 40px;
+  font-weight: 400 !important;
+}
+.cm3 h1 {
+  font-weight: 700 !important;
+}
+.cm3 h3 {
+  font-weight: 700 !important;
+}
+.cm4 {
+  display: flex;
+}
+.cm4 h5 {
+  margin-right: auto;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  color: #485fc7;
+  font-weight: 600;
+}
+.cm5 {
+  margin-top: 20px;
+}
+.cm5b1 {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.cm5b2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.images {
+  display: block;
+  margin: auto;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  width: 60% !important;
+}
+.cons {
+  margin-bottom: 100px !important;
+  margin-top: 50px !important;
+}
+.card1 {
+  border-radius: 20px !important;
+}
+.mySwiper {
+  width: 50%;
+}
+.col-md-4 {
+  flex: 0 0 auto !important;
+  width: 25% !important;
+}
+.d-flex {
+  display: flex !important;
+}
+.pTitel {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.row {
+  display: flex;
+  margin: auto !important;
+}
+.hover :hover {
+  transform: scale(1) translateY(-10px);
+  cursor: pointer;
+}
+.card :hover {
+  transform: none !important;
+}
+.box1 {
+  background-color: #e6e9f7 !important;
+  width: auto !important;
+}
+.img2 {
+  size: 200px !important;
+}
+.button {
+  border-radius: 10px !important;
+}
+.titleBody {
+  display: block;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.btn2 {
+  width: 250px !important;
+  display: block !important;
+  margin: auto !important;
+}
+.box2 {
+  border-top: #ced5f4 solid 2px;
+}
+.ze {
+  position: relative;
+  z-index: 30;
+  display: flex;
+}
+.herosi {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+.herosi ::after {
+  content: "";
+  width: 300px;
+  display: block !important;
+  border-bottom: 8px solid rgb(86, 111, 254);
+  margin: auto !important;
+}
+.zero {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  transition: all 0.2s ease 0s;
+}
+.prof {
+  display: block;
+  margin: auto;
+  width: 650px !important;
+  margin-bottom: 50px;
+}
+.boxC {
+  margin-bottom: 100px !important;
+  margin-top: 50px !important;
+}
+.container1 {
+  max-width: none !important;
+  padding: 0px !important;
+}
+.navbar-dropdown {
+  width: auto !important;
+  max-width: auto !important;
+  left: -300px !important;
+  border: none !important;
+  height: auto;
+}
+.navbar-dropdown p {
+  margin-right: 70px;
+}
+.xca {
+  padding: 0.375rem 1rem !important;
+  margin-left: auto !important;
+  font-weight: 500;
+  color: #485fc7 !important;
+}
+.modal-content1 {
+  width: auto !important;
+}
+
+.zesa {
+  font-weight: 600;
+}
+.zsa {
+  margin-bottom: 20px;
+}
+.sres {
+  margin-right: 10px;
+}
+.jIREKO {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cJAlqk {
+  width: 55%;
+  margin-right: 40px;
+}
+.modal-content {
+  margin: 0px !important;
+}
+.box123 {
+  margin-bottom: 50px;
+}
+.asda {
+  width: 400px !important;
+}
+.navbar-item img {
+  max-height: 10% !important;
+  max-width: 10% !important;
+}
+.zesa3 {
+  margin-top: 10px;
+}
+.wd {
+  font-weight: 900;
+}
+.zesa1 {
+  color: rgb(224, 41, 84);
+  font-weight: 700;
+}
+.cJAlqk1 {
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.sres12 {
+  max-height: 10% !important;
+  max-width: 10% !important;
+}
+.modal-dialog1 {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.asd {
+  margin-left: auto;
+}
+.Beli {
+  width: 100%;
+}
+.bsl {
+  font-weight: 700;
+}
+.areas {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: 50px;
+}
+.dropdown .dropdown-toggle {
+  display: none;
+}
+.asdadsaw {
+  height: 500px;
+  width: auto !important;
+}
+.sdawda {
+  width: 500px;
+  display: block;
+  margin: auto;
+}
+.columns {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: -0.75rem;
+}
+
+.kurad {
+  position: absolute;
+  background-color: rgb(224, 41, 84);
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+  color: white;
+  z-index: 2;
+  right: 5px;
+  top: -2px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+@media (min-width: 991px) and (max-width: 1300px) {
+  .btn2 {
+    width: 170px !important;
+  }
+}
+@media (min-width: 701px) and (max-width: 990px) {
+  .kurad {
+    position: absolute;
+    background-color: rgb(224, 41, 84);
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    color: white;
+    z-index: 2;
+    right: 5px;
+    top: 5px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+  .cm5 span {
+    font-size: 20px;
+    margin: 5px !important;
+  }
+  .cm5 button {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 13px;
+  }
+  .btn2 {
+    font-size: 14.5px !important;
+    width: 150px !important;
+  }
+  .col .is-6 {
+    font-size: 30px !important;
+  }
+  .sdawda {
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .cm4 h5 {
+    margin-right: auto;
+  }
+  .cm2 {
+    margin-bottom: 100px;
+  }
+  .cm3 h1 {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+  }
+  .sres12 {
+    max-height: 20% !important;
+    max-width: 20% !important;
+  }
+  .cm1 {
+    height: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .areas {
+    margin-left: 0px;
+  }
+  .sadawdadss {
+    font-size: 13px !important;
+  }
+  .xca {
+    padding: 0.375rem 0.375rem 0.375rem 9rem !important;
+    margin-left: auto !important;
+    font-weight: 500;
+  }
+  .dropdown .dropdown-toggle {
+    display: block;
+  }
+  .navbar-toggler {
+    color: transparent !important;
+    background-color: transparent;
+    border: none;
+  }
+  .sadsd {
+    color: #485fc7;
+    font-size: 25px;
+  }
+  .has-dropdown {
+    display: none !important;
+  }
+  .item1 {
+    margin-left: 0px;
+  }
+  .navbar-collapse,
+  .collapse,
+  .show {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #93a5f8;
+  }
+  .cJAlqk {
+    width: 45% !important;
+    margin-right: 40px;
+  }
+  .sadadawa {
+    padding-right: 300px !important;
+  }
+  .sres {
+    width: 15%;
+  }
+  .dropdown-menu {
+    left: -235px !important;
+    width: 350px !important;
+  }
+  .prof {
+    width: auto !important;
+  }
+  .prof p {
+    font-size: 18px;
+  }
+  .box123 {
+    display: block !important;
+  }
+  .zesa {
+    font-size: 10px !important;
+  }
+  .sadaas {
+    font-size: 10px !important;
+    margin: 0px !important;
+  }
+  .dropdown-toggle::after {
+    display: none;
+  }
+  .dropdown-toggle {
+    background-color: transparent;
+    color: #485fc7;
+    border: none;
+    font-size: 25px;
+  }
+  .btn-check:checked + .btn,
+  .btn.active,
+  .btn.show,
+  .btn:first-child:active,
+  :not(.btn-check) + .btn:active {
+    background-color: transparent;
+    color: #485fc7;
+    border: none;
+    font-size: 25px;
+  }
+  .btn:hover {
+    background-color: transparent;
+    color: #485fc7;
+  }
+  .ari {
+    text-align: center;
+  }
+  .ari1 {
+    text-align: center !important;
+    display: block;
+  }
+  .dsdfs {
+    font-size: 38px !important;
+  }
+  .col-md-4 {
+    flex: 0 0 auto !important;
+    width: 50% !important;
+  }
+}
+@media (min-width: 400px) and (max-width: 700px) {
+  .kurad {
+    position: absolute;
+    background-color: rgb(224, 41, 84);
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    color: white;
+    z-index: 2;
+    right: 5px;
+    top: 5px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+  .sdawda {
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .cm4 h5 {
+    margin-right: auto;
+  }
+  .cm2 {
+    margin-bottom: 100px;
+  }
+  .cm3 h1 {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+  }
+  .sres12 {
+    max-height: 20% !important;
+    max-width: 20% !important;
+  }
+  .cm1 {
+    height: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .areas {
+    margin-left: 0px;
+  }
+  .sadawdadss {
+    font-size: 13px !important;
+  }
+  .xca {
+    padding: 0.375rem 0.375rem 0.375rem 9rem !important;
+    margin-left: auto !important;
+    font-weight: 500;
+  }
+  .dropdown .dropdown-toggle {
+    display: block;
+  }
+  .navbar-toggler {
+    color: transparent !important;
+    background-color: transparent;
+    border: none;
+  }
+  .sadsd {
+    color: #485fc7;
+    font-size: 25px;
+  }
+  .has-dropdown {
+    display: none !important;
+  }
+  .item1 {
+    margin-left: 0px;
+  }
+  .navbar-collapse,
+  .collapse,
+  .show {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #93a5f8;
+  }
+  .cJAlqk {
+    width: 45% !important;
+    margin-right: 40px;
+  }
+  .sadadawa {
+    padding-right: 100px !important;
+  }
+  .sres {
+    width: 15%;
+  }
+  .dropdown-menu {
+    left: -235px !important;
+    width: 350px !important;
+  }
+  .prof {
+    width: auto !important;
+  }
+  .prof p {
+    font-size: 12px;
+  }
+  .box123 {
+    display: block !important;
+  }
+  .zesa {
+    font-size: 10px !important;
+  }
+  .sadaas {
+    font-size: 10px !important;
+    margin: 0px !important;
+  }
+  .dropdown-toggle::after {
+    display: none;
+  }
+  .dropdown-toggle {
+    background-color: transparent;
+    color: #485fc7;
+    border: none;
+    font-size: 25px;
+  }
+  .btn-check:checked + .btn,
+  .btn.active,
+  .btn.show,
+  .btn:first-child:active,
+  :not(.btn-check) + .btn:active {
+    background-color: transparent;
+    color: #485fc7;
+    border: none;
+    font-size: 25px;
+  }
+  .btn:hover {
+    background-color: transparent;
+    color: #485fc7;
+  }
+  .ari {
+    text-align: center;
+  }
+  .ari1 {
+    text-align: center !important;
+    display: block;
+  }
+  .dsdfs {
+    font-size: 38px !important;
+  }
+  .col-md-4 {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+  }
+}
+@media (min-width: 341px) and (max-width: 400px) {
+  .kurad {
+    position: absolute;
+    background-color: rgb(224, 41, 84);
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    color: white;
+    z-index: 2;
+    right: 5px;
+    top: 5px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+  .sdawda {
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .cm5 span {
+    font-size: 20px;
+    margin: 5px !important;
+  }
+  .cm5 button {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 13px;
+  }
+  .cm4 h5 {
+    margin-right: auto;
+  }
+  .cm2 {
+    margin-bottom: 100px;
+  }
+  .cm3 h1 {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+  }
+  .sres12 {
+    max-height: 20% !important;
+    max-width: 20% !important;
+  }
+  .cm1 {
+    height: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .areas {
+    margin-left: 0px;
+  }
+  .sadawdadss {
+    font-size: 13px !important;
+  }
+  .xca {
+    padding: 0.375rem 0.375rem 0.375rem 9rem !important;
+    margin-left: auto !important;
+    font-weight: 500;
+  }
+  .dropdown .dropdown-toggle {
+    display: block;
+  }
+  .navbar-toggler {
+    color: transparent !important;
+    background-color: transparent;
+    border: none;
+  }
+  .sadsd {
+    color: #485fc7;
+    font-size: 25px;
+  }
+  .has-dropdown {
+    display: none !important;
+  }
+  .item1 {
+    margin-left: 0px;
+  }
+  .navbar-collapse,
+  .collapse,
+  .show {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #93a5f8;
+  }
+  .cJAlqk {
+    width: 45% !important;
+    margin-right: 40px;
+  }
+  .sadadawa {
+    padding-right: 100px !important;
+  }
+  .sres {
+    width: 15%;
+  }
+  .dropdown-menu {
+    left: -235px !important;
+    width: 350px !important;
+  }
+  .prof {
+    width: auto !important;
+  }
+  .prof p {
+    font-size: 12px;
+  }
+  .box123 {
+    display: block !important;
+  }
+  .zesa {
+    font-size: 10px !important;
+  }
+  .sadaas {
+    font-size: 10px !important;
+    margin: 0px !important;
+  }
+  .dropdown-toggle::after {
+    display: none;
+  }
+  .dropdown-toggle {
+    background-color: transparent;
+    color: #485fc7;
+    border: none;
+    font-size: 25px;
+  }
+  .btn-check:checked + .btn,
+  .btn.active,
+  .btn.show,
+  .btn:first-child:active,
+  :not(.btn-check) + .btn:active {
+    background-color: transparent;
+    color: #485fc7;
+    border: none;
+    font-size: 25px;
+  }
+  .btn:hover {
+    background-color: transparent;
+    color: #485fc7;
+  }
+  .ari {
+    text-align: center;
+  }
+  .ari1 {
+    text-align: center !important;
+    display: block;
+  }
+  .dsdfs {
+    font-size: 38px !important;
+  }
+  .col-md-4 {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+  }
+}
+@media (min-width: 200px) and (max-width: 340px) {
+  .kurad {
+    position: absolute;
+    background-color: rgb(224, 41, 84);
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    color: white;
+    z-index: 2;
+    right: 5px;
+    top: 5px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+  .sdawda {
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .cm4 h5 {
+    margin-right: auto;
+  }
+  .cm2 {
+    margin-bottom: 100px;
+  }
+  .cm3 h1 {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+  }
+  .sres12 {
+    max-height: 20% !important;
+    max-width: 20% !important;
+  }
+  .cm1 {
+    height: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .areas {
+    margin-left: 0px;
+  }
+  .sadawdadss {
+    font-size: 13px !important;
+  }
+  .xca {
+    padding: 0.375rem 0.375rem 0.375rem 5.7rem !important;
+    margin-left: auto !important;
+    font-weight: 500;
+  }
+  .dropdown .dropdown-toggle {
+    display: block;
+  }
+  .navbar-toggler {
+    color: transparent !important;
+    background-color: transparent;
+    border: none;
+  }
+  .cm5 span {
+    font-size: 20px;
+    margin: 5px !important;
+  }
+  .cm5 button {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 13px;
+  }
+  .herosi ::after {
+    content: "";
+    width: auto !important;
+    display: block !important;
+    border-bottom: 8px solid rgb(86, 111, 254);
+    margin: auto !important;
+  }
+  .herosi .title {
+    font-size: 40px !important;
+  }
+  .sadsd {
+    color: #485fc7;
+    font-size: 25px;
+  }
+  .has-dropdown {
+    display: none !important;
+  }
+  .item1 {
+    margin-left: 0px;
+  }
+  .navbar-collapse,
+  .collapse,
+  .show {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #93a5f8;
+  }
+  .cJAlqk {
+    width: 40% !important;
+    margin-right: 40px;
+  }
+  .sadadawa {
+    padding-right: 70px !important;
+  }
+  .sres {
+    width: 15%;
+  }
+  .dropdown-menu {
+    left: -195px !important;
+    width: 300px !important;
+  }
+  .prof {
+    width: auto !important;
+  }
+  .prof p {
+    font-size: 12px;
+  }
+  .box123 {
+    display: block !important;
+  }
+  .zesa {
+    font-size: 10px !important;
+  }
+  .sadaas {
+    font-size: 10px !important;
+    margin: 0px !important;
+  }
+  .dropdown-toggle::after {
+    display: none;
+  }
+  .dropdown-toggle {
+    background-color: transparent;
+    color: #485fc7;
+    border: none;
+    font-size: 25px;
+  }
+  .btn-check:checked + .btn,
+  .btn.active,
+  .btn.show,
+  .btn:first-child:active,
+  :not(.btn-check) + .btn:active {
+    background-color: transparent;
+    color: #485fc7;
+    border: none;
+    font-size: 25px;
+  }
+  .btn:hover {
+    background-color: transparent;
+    color: #485fc7;
+  }
+  .ari {
+    text-align: center;
+  }
+  .ari1 {
+    text-align: center !important;
+    display: block;
+  }
+  .dsdfs {
+    font-size: 30px !important;
+  }
+  .col-md-4 {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+  }
+}
