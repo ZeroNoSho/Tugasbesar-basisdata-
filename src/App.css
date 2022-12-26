@@ -1,4 +1,155 @@
 @import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Anek+Telugu&display=swap");
+
+.gap {
+  display: flex;
+  gap: 10px;
+}
+.btn.active {
+  background-color: #485fc7 !important;
+  color: white;
+}
+
+.btn-outline-ari {
+  border: 1px solid #485fc7;
+  color: #485fc7;
+}
+
+.btn-outline-ari:hover {
+  background-color: #485fc7 !important;
+  color: white;
+}
+.icon-btn {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #cdcdcd;
+  background: white;
+  border-radius: 55px;
+  overflow: hidden;
+  position: relative;
+  transition: width 0.2s ease-in-out;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+.add-btn:hover {
+  width: 180px;
+}
+
+.add-btn::before,
+.add-btn::after {
+  transition: width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 10px;
+  top: calc(50% - 2px);
+  background: #485fc7;
+}
+
+.add-btn::after {
+  right: 18px;
+  overflow: hidden;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.add-btn::before {
+  left: 18px;
+  overflow: hidden;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.icon-btn:focus {
+  outline: none;
+}
+
+.btn-txt {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.add-btn:hover::before,
+.add-btn:hover::after {
+  width: 4px;
+  border-radius: 2px;
+}
+
+.add-btn:hover .btn-txt {
+  opacity: 1;
+}
+
+.add-icon::after,
+.add-icon::before {
+  transition: all 0.2s ease-in-out;
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 3px;
+  top: calc(50% - 10px);
+  background: #485fc7;
+  overflow: hidden;
+}
+
+.add-icon::before {
+  left: 27px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.add-icon::after {
+  right: 27px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.add-btn:hover .add-icon::before {
+  left: 18px;
+  height: 4px;
+  top: calc(50% - 2px);
+}
+
+.add-btn:hover .add-icon::after {
+  right: 18px;
+  height: 4px;
+  top: calc(50% - 2px);
+}
+
+.fly {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  z-index: 5;
+}
+
+.kuros {
+  color: white;
+}
+.width100 {
+  margin-left: 5px;
+  width: 100px;
+}
+.full {
+  width: 100%;
+}
+.txt-login {
+  font-size: xx-large;
+  color: #485fc7;
+  font-weight: 700;
+}
+.col1 {
+  margin: auto;
+}
+.kuros :hover {
+  color: white;
+}
+.kuros1 {
+  color: white;
+  background-color: #485fc7;
+}
+.kuros1 :hover {
+  color: white;
+}
 .imgs {
   width: 100% !important;
   display: block !important;

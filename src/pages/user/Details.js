@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { productSelector, getProducts1 } from "../features/productSlice";
+import { productSelector, getProducts1 } from "../../features/productSlice";
 import { Link, useParams } from "react-router-dom";
-import Foot from "./Foot";
+import Foot from "../../component/Foot";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+import Nav from "../../component/Nav";
 
 const Details = ({ nums1, setNums1 }) => {
   const [nums, setNums] = useState(0);
@@ -101,6 +102,7 @@ const Details = ({ nums1, setNums1 }) => {
 
   return (
     <>
+      <Nav></Nav>
       <div className="container">
         <div className="columns">
           <div className="column cm1">

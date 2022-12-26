@@ -2,14 +2,15 @@ import React, { useEffect } from "react";
 import Lottie from "lottie-react";
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { getProducts, productSelector } from "../features/productSlice";
-import Foot from "./Foot";
-import Parret from "../lotif.json";
+import { getProducts, productSelector } from "../../features/productSlice";
+import Foot from "../../component/Foot";
+import Nav from "../../component/Nav";
+import Parret from "../../lotif.json";
 import "swiper/css";
 import "swiper/css/navigation";
-import "../App.css";
+import "../../App.css";
 
-const ShowProduct = () => {
+const Home = () => {
   const dispatch = useDispatch();
   const product = useSelector(productSelector.selectAll);
 
@@ -19,6 +20,7 @@ const ShowProduct = () => {
 
   return (
     <div>
+      <Nav></Nav>
       <div className="container cons">
         <div className="columns">
           <div className="column imgs">
@@ -86,4 +88,4 @@ const ShowProduct = () => {
   );
 };
 
-export default ShowProduct;
+export default Home;

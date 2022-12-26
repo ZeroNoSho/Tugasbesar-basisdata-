@@ -1,5 +1,6 @@
 import React from "react";
 import Foot from "./Foot";
+import Nav from "./Nav";
 import "../App.css";
 
 const Carts = ({ nums1, setNums1 }) => {
@@ -59,6 +60,7 @@ const Carts = ({ nums1, setNums1 }) => {
 
   return (
     <div>
+      <Nav></Nav>
       <div className="titleBody">
         <h1 className="title is-2" style={{ textAlign: "center" }}>
           Keranjang
@@ -122,7 +124,7 @@ const Carts = ({ nums1, setNums1 }) => {
 
               <button className="button is-link is-light Beli">Beli ({naw})</button>
             </div>
-          </div> 
+          </div>
         </div>
       </div>
       <Foot></Foot>

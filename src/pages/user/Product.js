@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import { getProducts1, productSelector, getCategori } from "../features/productSlice";
-import Foot from "./Foot";
+import { getProducts1, productSelector, getCategori } from "../../features/productSlice";
+import Foot from "../../component/Foot";
+import Nav from "../../component/Nav";
 
-const AddProduct = () => {
+const Product = () => {
   const [name, setName] = useState("all");
   const dispatch = useDispatch();
   const product = useSelector(productSelector.selectAll);
@@ -15,6 +16,7 @@ const AddProduct = () => {
 
   return (
     <div className="box2">
+      <Nav></Nav>
       <div className="titleBody">
         <h1 className="title is-2" style={{ textAlign: "center" }}>
           Explore Produk
@@ -121,4 +123,4 @@ const AddProduct = () => {
   );
 };
 
-export default AddProduct;
+export default Product;
