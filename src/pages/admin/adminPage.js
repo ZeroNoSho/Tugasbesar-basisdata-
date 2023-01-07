@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { getProducts1, productSelector, getCategori } from "../../features/productSlice";
+import NavAdmin from "../../component/NavAdmin";
 
 const AdminPage = () => {
   const [name, setName] = useState("all");
@@ -14,6 +15,7 @@ const AdminPage = () => {
 
   return (
     <>
+      <NavAdmin></NavAdmin>
       <div className="box2">
         <div className="titleBody">
           <h1 className="title is-2" style={{ textAlign: "center" }}>

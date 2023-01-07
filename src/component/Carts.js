@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Foot from "./Foot";
 import Nav from "./Nav";
 import "../App.css";
@@ -122,7 +123,7 @@ const Carts = ({ nums1, setNums1 }) => {
                 <h1 className="asd">$ {naw1.toFixed(2)}</h1>
               </div>
 
-              <button className="button is-link is-light Beli">Beli ({naw})</button>
+              <Link className="button is-link is-light Beli" to={"/"}>Beli ({naw})</Link>
             </div>
           </div>
         </div>

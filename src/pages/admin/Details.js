@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { productSelector, getProducts1 } from "../../features/productSlice";
 import { Link, useParams } from "react-router-dom";
+import NavAdmin from "../../component/NavAdmin";
 
 const AdminDetails = () => {
   const { id } = useParams();
@@ -18,6 +19,7 @@ const AdminDetails = () => {
 
   return (
     <>
+      <NavAdmin></NavAdmin>
       <div className="container">
         <div className="columns">
           <div className="column cm1">
@@ -26,7 +28,7 @@ const AdminDetails = () => {
           <div className="column cm2">
             <div className="cm4">
               <h5 className="subtitle is-6">{product === undefined ? "" : product.category}</h5>
-              <Link to={"/AdminPage"} className="button is-link is-outlined width100" style={{ height: "25px" }}>
+              <Link to={`/EditProduct/${product === undefined ? "" : product.id}`} className="button is-link is-outlined width100" style={{ height: "25px" }}>
                 edit
               </Link>
               <Link to={"/AdminPage"} className="button is-link is-outlined width100" style={{ height: "25px" }}>
